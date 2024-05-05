@@ -8,12 +8,7 @@ const CategoryList: React.FC = () => {
       <h1>Categories</h1>
       <div>
         {getCetegories().map((category, i) => (
-          <CategoryItem
-            index={i}
-            key={category.id}
-            onItemClick={() => console.log(category.title)}
-            category={category}
-          />
+          <CategoryItem index={i} key={category.id} category={category} />
         ))}
       </div>
     </div>
