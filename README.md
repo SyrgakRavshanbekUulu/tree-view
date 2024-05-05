@@ -8,6 +8,12 @@ npm i
 
 npm run dev
 
+## Deploy code
+
+npm run predeploy
+
+npm run deploy
+
 ## Алгоритмическая сложность:
 
 ```c
